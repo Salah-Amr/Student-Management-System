@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="get_marks()">
+    <h1>Student Management System</h1>
+    <h2>Made By: Salah Amr</h1>
+    <hr>
+    <br><br>
+    <input type="text" placeholder="Search Student" id="search_bar" >
+    <br><br>
+    <div id="table_div">
+    </div>
+    <br><br>
+    <div id="buttons">
+      <button id="all_degrees_btn" onclick="get_all_degrees()">All Degrees</button>
+      <button id="marks_btn" onclick="get_marks()">Students Marks</button>
+      <button id="student_status_btn" onclick="get_student_status()">Students Status</button>
+      <button id="gpa_btn" onclick="get_gpa()">Students GPA</button>
+      <button id="average_btn" onclick="get_average()">Subjects Average</button>
+      <button id="top_last_btn" onclick="get_top_last()">Top & Last</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
